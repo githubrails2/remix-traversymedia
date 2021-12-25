@@ -15,4 +15,4 @@ if (process.env.NODE_ENV === "production") {
 	}
 	db = global.__db;
 }
-export default db;
+export { db };
